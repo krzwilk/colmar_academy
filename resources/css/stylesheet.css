@@ -41,3 +41,7 @@ li{
     align-items: left;
     align-items: flex-end;
 }
+.banner-container{
+    margin: 24px 32px;
+    width: 60%;
+}
