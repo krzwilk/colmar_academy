@@ -16,7 +16,7 @@ header{
     align-items: center;
 }
 .header-container{
-    display:inline-flexbox;
+    display:inline;
     display: block;
 }
 nav{
