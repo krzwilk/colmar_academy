@@ -20,6 +20,12 @@ header{
     display:inline;
     display: block;
 }
+.logo{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 32px;
+    align-items: center;
+}
 nav{
     align-items: center;
     
@@ -29,12 +35,7 @@ ul{
     display:flex;
     border-width: 16px;
 }
-.logo{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    height: 32px;
-    align-items: center;
-}
+
 li{
     margin-left: 16px;
     margin-right: 16px;
@@ -42,6 +43,6 @@ li{
     align-items: flex-end;
 }
 .banner-container{
-    margin: 24px 32px;
+    margin: 32px 24px;
     width: 60% ;
 }
