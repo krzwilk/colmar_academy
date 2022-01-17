@@ -8,28 +8,30 @@ margin: 0;
 
 }
 header{
-    display: block;
+    display: inline-flex;
     height:64px;
     width: 100%;
     margin-left: 24px;
+    margin-right: 24px;
     background-color: aliceblue;
-    align-items: center;
+    align-items: stretch;
 }
 .header-container{
-    display:inline-flexbox;
+    display:inline;
     display: block;
 }
 nav{
+    align-items: center;
     
 }
 ul{
+    list-style-type: none;
     display:flex;
-    text-align:right;
-    justify-content: space-around;
-    align-items:flex-end;
+    border-width: 16px;
 }
 .logo{
     margin-top: 16px;
+    margin-bottom: 16px;
     height: 32px;
     align-items: center;
 }
