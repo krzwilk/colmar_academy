@@ -35,3 +35,9 @@ ul{
     height: 32px;
     align-items: center;
 }
+li{
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: left;
+    align-items: flex-end;
+}
