@@ -1,5 +1,6 @@
 html{
-    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font: size 16px;
     display:inline;
 }
 html, body{
@@ -16,18 +17,26 @@ header{
     background-color: aliceblue;
     align-items: stretch;
 }
-.header-container{
-    display:inline;
-    display: block;
-}
 .logo{
     margin-top: 16px;
     margin-bottom: 16px;
     height: 32px;
     align-items: center;
 }
+#logo-text{
+    text-align: justify;
+    
+}
+.header-container{
+    display:inline;
+    display: block;
+}
 nav{
+    width: 100%;
+    margin-right: 24px;
+    display: inline-flex;
     align-items: center;
+    align-items:flex-end;
 }
 
 ul{
@@ -39,10 +48,33 @@ ul{
 li{
     margin-left: 16px;
     margin-right: 16px;
-    align-items: left;
+    align-items:left;
     align-items: flex-end;
 }
+.benner-article{
+    background-color:gray;
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+
 .banner-container{
     margin: 32px 24px;
-    width: 60% ;
+    width: 60%;
+}
+.article{
+    margin: 24px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 45px;
+    }
+button{
+    width: 70%;
+    font-size: 45px;
+    border:8px;
+    background-color:black;
+    color:white;
 }
