@@ -85,9 +85,9 @@ button{
 
 }
 .imag-main{
-    width: 100%;
+    width: 95%;
     margin-top: 32px;
-    margin-left: 24px;
+    margin-left: 0px;
     margin-right: 24px;
 }
 h2{
@@ -109,5 +109,12 @@ h2{
     display:flexbox;
     width:35%;
     margin-top: 32px;
+}
+.info-img{
+    width:100%;
+    margin:16px;
+}
+.information-container-info{
+    width:65%;
 }
     
