@@ -68,9 +68,7 @@ li{
     h1{
         font-size: 80px;
     }
-    p{
-        font-size: 45px;
-    }
+
 button{
     width: 70%;
     font-size: 45px;
@@ -78,3 +76,38 @@ button{
     background-color:black;
     color:white;
 }
+.information-container{
+    display: flex;
+    margin-left: 24px;
+}
+.information-container-main{
+    width:60%;
+
+}
+.imag-main{
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+h2{
+    margin: 32px 24px 24px;
+    text-align: center;
+    font-size: 45px;
+}
+.information-paragraf{
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+
+}
+.information-container-gests{
+    width: 40%;
+    display: inline-flex;
+}
+.information-img-container{
+    display:flexbox;
+    width:35%;
+    margin-top: 32px;
+}
+    
