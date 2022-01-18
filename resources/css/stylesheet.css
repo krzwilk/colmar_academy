@@ -36,7 +36,7 @@ nav{
     margin-right: 24px;
     display: inline-flex;
     align-items: center;
-    align-items:flex-end;
+    justify-content:flex-end;
 }
 
 ul{
