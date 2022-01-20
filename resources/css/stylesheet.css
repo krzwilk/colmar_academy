@@ -101,6 +101,11 @@ h2{
     margin-bottom: 32px;
 
 }
+.information-container-info{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
 .information-container-gests{
     width: 40%;
     display: inline-flex;
@@ -111,10 +116,32 @@ h2{
     margin-top: 32px;
 }
 .info-img{
-    width:100%;
+    width:35%;
+    height:auto;
     margin:16px;
 }
-.information-container-info{
-    width:65%;
+
+.date-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
-    
+h3{
+    font-size: 30px;
+}
+.orientation-container{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+}
+.campus-container{
+    display: flex;
+}
+.info-text{
+    align-items:center;
+    margin: 16px;
+}
+.guest-container{
+    display: flex;
+    background-color:gray;
+}
