@@ -145,3 +145,31 @@ h3{
     display: flex;
     background-color:gray;
 }
+.title1{
+    margin: 32px;
+    width: 100%;
+}
+.start-learning-container{   
+    width: 100%;
+    }
+.corses-container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 72px;
+    margin-right: 72px;
+    justify-content:space-between;
+}
+.corses-img{
+    width: auto;
+}
+.learning-container1{
+    margin-right: 32px;
+}
+.learning-container2{
+    margin-right: 32px;
+}
+h5{
+    margin:8px;
+}
