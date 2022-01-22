@@ -4,8 +4,10 @@ html{
     display:inline;
 }
 html, body{
-height: 100%;
-margin: 0;
+height: auto;
+width: auto;
+margin: 20px;
+
 
 }
 header{
@@ -56,6 +58,7 @@ li{
     width: 100%;
     display: inline-flex;
     text-align: center;
+    margin-left: 24px;
 }
 
 .banner-container{
@@ -150,6 +153,7 @@ h3{
     width: 100%;
 }
 .start-learning-container{   
+    background-color:lightgray;
     width: 100%;
     }
 .corses-container{
@@ -165,11 +169,40 @@ h3{
     width: auto;
 }
 .learning-container1{
+    margin-bottom: 32px;
+}
+.learning-container1{
     margin-right: 32px;
+    margin-bottom: 32px;
 }
 .learning-container2{
     margin-right: 32px;
 }
+.learning-container3{
+    margin-bottom: 32px;
+    margin-right: 72px;
+}
 h5{
     margin:8px;
+}
+.exhibit-contaniner{
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+.exhibit-container-main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    height: auto;
+}
+.exhibitsub1{
+    width: 60%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+video{
+    
 }
