@@ -186,21 +186,10 @@ h5{
 }
 .exhibit-contaniner{
     width: 100%;
-    height: auto;
-    margin-top: 32px;
-    margin-left: 24px;
-}
-.exhibit-container-main{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    height: auto;
-}
+    }
 .exhibitsub1{
     width: 60%;
-    margin-top: 32px;
-    margin-left: 24px;
-    margin-right: 24px;
+   margin: 32px 24px;
 }
 video{
     
