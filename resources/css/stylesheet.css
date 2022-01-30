@@ -5,7 +5,7 @@ html{
 }
 html, body{
 margin: 10px;
-height: auto;
+/*height: auto;*/
 width: 100%;
 
 
@@ -88,7 +88,7 @@ button{
     width:60%;
 
 }
-.imag-main{
+.imag-main{ 
     width: 95%;
     margin-top: 32px;
     margin-left: 0px;
@@ -186,11 +186,13 @@ h5{
 }
 .exhibit-contaniner{
     width: 100%;
+    height: max-height;
     }
 .exhibitsub1{
     width: 60%;
    margin: 32px 24px;
 }
 video{
+    
     
 }
