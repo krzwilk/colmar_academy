@@ -1,6 +1,5 @@
 html{
     font-family: 'Roboto', sans-serif;
-    font: size 16px;
     display:inline;
 }
 html, body{
@@ -12,6 +11,7 @@ width: 100%;
 
 }
 header{
+    box-sizing: content-box;
     display: inline-flex;
     height:64px;
     width: 100%;
@@ -154,7 +154,10 @@ h3{
     margin: 32px;
     width: 100%;
 }
-.start-learning-container{   
+.start-learning-container{ 
+    box-sizing:content-box;
+    
+    content:
     background-color:lightgray;
     width: 100%;
     }
@@ -190,9 +193,21 @@ h5{
     }
 .exhibitsub1{
     width: 60%;
+    height: 800px;
    margin: 32px 24px;
 }
-video{
-    
+.exhibitsub-video {
+    width: 100%;
+    height: auto;
     
 }
+.video-thesis {
+width:max-content;
+object-fit: fill;
+}
+/*video{
+    width: fit-content;
+    height: auto;
+    
+    
+}*/

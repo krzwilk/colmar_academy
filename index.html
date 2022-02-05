@@ -123,12 +123,13 @@
     <div class="exhibit-contaniner">
         <h2>Thes is Exhibit</h2>
         <div class="exhibitsub1">
-            <img class="corses-img" src="resources\images\course-computer-art.jpg">
-           <!--> <viedo controls width="480">
-                <source width="480" height="320" src="resources/videos/thesis.mp4" type="video/mp4">
-                Your browser does not support video!
-            </viedo>-->
-
+            <div class="exhibitsub-video">
+                <video height="640" controls muted="true" autoplay="true">
+                    <sources> src="resources\videos\thesis.mp4" type="video/mp4"</sources>
+                    <sources> src="resources\videos\thesis.webm type="video/webm"</sources>
+                </video>
+            <!--<embed class="video-thesis" width="640"  type="video/mp4" poster="resources\videos\thesis.mp4"  muted>-->
+            </div>
         </div>
         <div class="exhibitsub2">
 
@@ -137,11 +138,7 @@
         <div class="exhibitsub3"></div>
     </div>
 
-    <footer>
-        <h4>On local computer lower part of web page</h4>
-
-    </footer>
-    
+        
 </body>
 
 </html>
