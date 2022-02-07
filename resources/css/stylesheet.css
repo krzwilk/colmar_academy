@@ -1,10 +1,9 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
-html, body{
- /*   box-sizing: border-box;*/
+/*html, body{
+    box-sizing: border-box;*/
 /*height: auto;*/
-}
 header{
     box-sizing: content-box;
     display: inline-flex;
@@ -14,6 +13,10 @@ header{
     margin-right: 24px;
     background-color: aliceblue;
     align-items: stretch;
+}
+.company-logo{
+    display: inline-flex;
+    align-items: center;
 }
 .logo{
     margin-top: 16px;
@@ -183,6 +186,7 @@ h5{
     margin:8px;
 }
 .exhibit-contaniner{
+    display: flex;
     width: 100%;
     height: max-height;
     }
@@ -200,6 +204,40 @@ h5{
 .video-thesis {
 width:max-content;
 object-fit: cover;
+}
+.exhibitsub2{
+    box-sizing: content-box;
+    width:40%;
+}
+.container-fisma{
+    background-color:rgb(189, 186, 186);
+    margin-top: 32px;
+    display:flex;
+    flex-direction: row;
+
+}
+.img-fisma{
+    box-sizing: content-box;
+    width:35%;
+    height: auto;
+    margin: 16px;
+}
+.container-fisma-text{
+    width:65%;
+}
+.container-now-then{
+    display: flex;
+    flex-direction: row;
+}
+.container-now-then-text{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+footer{
+    margin-left: 24px;
 }
 /*video{
     width: fit-content;
