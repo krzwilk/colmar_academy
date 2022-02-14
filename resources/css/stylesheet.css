@@ -1,8 +1,13 @@
 html{
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 body{
     margin:.5rem;
+}
+main{
+    width: 100%;
+
 }
 /*html, body{
     box-sizing: border-box;*/
@@ -40,7 +45,7 @@ header{
     display:inline;
     display: block;
 }
-nav{
+.nav-desk{
     width: 100%;
     margin-right: 1.5rem;
     display: inline-flex;
@@ -49,13 +54,18 @@ nav{
 }
 .menue-bar-mobile{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    height: 64px;
+    align-items:center;
+    justify-items: center;
 }
-.menue-bar-mobile nav{
-    width: 100%;
+.nav-mobile{
+    width: 80%;
+    padding: 16px;
     display: flex;
     justify-content:space-around;
+}
+.nav-mobile-img{
+    width: auto;
 }
 
 ul{
@@ -81,21 +91,30 @@ li{
 }
 
 .banner-container{
-    box-sizing:content-box;
+    box-sizing:border-box;
     margin: 2rem 1.5rem;
     width: 60%;
 }
+.banner-container, img{
+    width: 100%;
+}
 
 .article{
-    margin: 1.5rem;
+    /*margin: 1.5rem;*/
+    /*display: flex;
+    flex-direction:column;*/
+    text-align: left;
+
     }
     h1{
-        font-size: 4.37rem;
+        margin-top:5rem;
+        font-size: 2.5rem;
+        font-weight:700;
     }
 
 button{
     width: 70%;
-    font-size: 2.82rem;
+    font-size: 2.0rem;
     border:.5rem;
     background-color:black;
     color:white;
@@ -117,7 +136,7 @@ button{
 h2{
     margin: 2rem 1.5rem 1.5rem;
     text-align: center;
-    font-size: 2.82rem;
+    font-size: 2.5rem;
 }
 .information-paragraf{
     margin-right: 1.5rem;
@@ -180,7 +199,7 @@ h3{
 }
 .start-learning-container{ 
     box-sizing:content-box;      
-    background-color:lightgray;
+    /*background-color:lightgray;*/
     width:100%;
     }
 .corses-container{
@@ -264,6 +283,23 @@ footer{
     margin-left: 1.5rem;
 }
 @media  (max-width: 940px) {
+    html{
+        font: size .5em;        
+    }
+    body{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+        margin:2rem 1rem ;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    .article, p{
+        font-size:1rem;
+        margin-left: 1rem; 
+    }
     .menue-bar-desktop{
         display: none;
     }
@@ -271,23 +307,15 @@ footer{
         flex-direction:column;
     }
     .banner-container{
-        min-width: 650px;
+        min-width: 240px;
         margin: 0 auto;
     }
-    .information-container-main{
+    .information-container{
         display: none;
     }
-    .orientation-container, .campus-container, .guest-container{
-        width: 100%;
-        min-width: 650px;
-        flex-direction:column;
-    }
-    .guest-container{
-        background-color:none;
-    }
     .info-img{
-       /* width:95%;*/
-        min-width: 624px;
+        width:98%;
+        min-width: 240px;
         margin: 1.5rem;
     }
     .inf-text{
@@ -295,22 +323,64 @@ footer{
         text-align: left;
     }
     .info-text, h3, p, a{
-        margin-left: 2rem;
+        margin-left: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+        border:1em 1em 1.5em;
+    }
+    .corses-container{
+        flex-direction:column;
+    }
+    .corses-img{
+        display:none;
+    }
+    .corses-container{
+        display: none;
+    }
+    hr{
+        margin-top:32px;
+    }
+    .title1{
+        margin-top: 32px;
+        text-align: center;
+    }
+    .learning-mobile-text{
+        background-color:rgb(233, 231, 231);
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+    .exhibit-contaniner{
+        display: none;
+    }
+    .exhibitsub2{
+        display: none;
+    }
+    .video-thesis{
+        object-fit: scale-down;
+        max-width: 100%;
     }
 }
 @media   (min-width:940px) {
     .menue-bar-mobile{
         display:none;
+    }    
+    .information-container-mobile{
+        display:none;
     }
-    .information-container{
-        width: 100%;
+    .learning-container-mobile{
+        display:none;
     }
-    .information-container-info{
+    .exibit-contanier-mobile{
+        display:none;
+    }
+    /*.information-container-info{
         flex-direction:column;
     }
-    /*Benner article*/
+    Benner article
 }
-/*video{
+video{
     width: fit-content;
     height: auto;
     
